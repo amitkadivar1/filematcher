@@ -1,5 +1,6 @@
 # Django settings for filematcher project.
 
+#if when ever you host your site or you live then do DEBUG=False
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -81,3 +82,4 @@ INSTALLED_APPS = (
     'filematcher.matcher',
     'django.contrib.admin',
 )
+
